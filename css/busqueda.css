@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+body {
+    scroll-behavior: smooth!important;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 0 0 0;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: black;
+    background-color: white;
+    font-weight: 400;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(210, 18, 38);
+}
+
+.botonFiltro {
+    cursor: pointer;
+    background-color: #D21226!important;
+    width: 16rem;
+}
+
+input.form-input {
+    width: 7em;
+    display: inline;
+    padding: 7px;
+}
+
+/*Medias Querys */
+
+@media (max-width: 767px) {
+    .logo {
+        position: absolute;
+        left: 22%;
+        top: 0;
+    }
+    .wsp {
+        position: absolute;
+        width: 40px;
+        right: 1.2em;
+        top: 1.5em;
+    }
+    h2 {
+        text-align: center;
+    }
+    .subtitle {
+        font-size: 1.3em;
+    }
+    .botonFiltro {
+        width: 20rem;
+    }
+    input.form-input {
+        width: 5em;
+        margin-bottom: 10px;
+    }
+    .aplicar {
+        position: relative;
+        left: 8em;
+        display: inline;
+        bottom: 50px;
+        width: 110px;
+    }
+    .botonAplicar {
+        width: 20rem!important;
+        position: relative;
+        bottom: 40px;
+    }
+    .img-fluid {
+        margin-top: 2em!important;
+    }
+}
+
+.iconosFiltros {
+    padding: 1em;
+}
+
+.iconosFiltros button {
+    background-color: #514E50;
+    color: white;
+    font-weight: lighter;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.leftFilters p {
+    margin-bottom: 5px!important;
+    font-weight: 300;
+}
+
