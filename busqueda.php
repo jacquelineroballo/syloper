@@ -56,7 +56,7 @@
                 <p class="text-uppercase font-weight-bold subtitle">Búsqueda avanzada</p>
                 <!--Filters-->
                 <button type="button" class="btn-danger text-uppercase py-4 mb-3 font-weight-bold botonFiltro" data-toggle="collapse" data-target="#filtros">Filtros</button>
-                <div id="filtros" class="collapse">
+                <div id="filtros ">
                     <p class="title font-weight-bold text-uppercase pt-3">Precios</p>
                     <input type="radio" name="pesos" id="pesos">
                     <label for="defaultUnchecked" class="pr-3 font-weight-light">$</label>

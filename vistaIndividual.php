@@ -48,7 +48,7 @@
     <!-- end Header-->
     <!--Main-->
     <main class="container">
-        <h3 class="text-danger text-uppercase my-2 font-weight-bold">Salta 3505 - 08 04 - 2 dormitorios </h3>
+        <p class="text-uppercase font-weight-bold my-2" style="font-size: 1.8em; color: #D21226;">Salta 3505 - 08 04 - 2 dormitorios </p>
         <p class="medium text-uppercase text-muted">Venta <span>|</span> <strong>Usd 120.000</strong></p>
         <hr>
         <div class="row pt-4">
@@ -65,12 +65,12 @@
             </div><!-- end col8 -->
             <div class="col-md-4 col-sm-12 col-lg-4">
                 <form action="" class="contact">
-                    <h4 class="text-danger font-weight-bold text-uppercase">¿Mas información?</h4>
-                    <h5 class="text-danger text-uppercase">Escribinos</h5>
-                    <input type="text" name="nombre" id="" placeholder="NOMBRE Y APELLIDO" class="form-control mb-2">
-                    <input type="text" name="email" id="" placeholder="E-MAIL" class="form-control mb-2">
-                    <input type="text" name="telefono" id="" placeholder="TELÉFONO" class="form-control mb-2">
-                    <textarea class="form-control rounded-0" id="" rows="8" placeholder="DEJANOS TU MENSAJE" required></textarea>
+                    <p class="text-uppercase font-weight-bold my-2" style="font-size: 1.5em; color: #D21226;">¿Mas información?</p>
+                    <p class="text-uppercase font-weight-bold my-2" style="font-size: 1.2em; color: #D21226;">Escribinos</p>
+                    <input type="text" name="nombre" placeholder="NOMBRE Y APELLIDO" class="form-control mb-2">
+                    <input type="text" name="email" placeholder="E-MAIL" class="form-control mb-2">
+                    <input type="text" name="telefono" placeholder="TELÉFONO" class="form-control mb-2">
+                    <textarea class="form-control rounded-0" rows="8" placeholder="DEJANOS TU MENSAJE" required></textarea>
                     <input type="submit" value="ENVIAR" class="float-right btn-danger enviar py-1">
                 </form>
             </div>
@@ -79,7 +79,7 @@
     <!-- After gallery -->
     <section class="container pt-5 text-muted">
         <p class="text-uppercase font-weight-bold">Características</p>
-        <hr>
+        <hr size="5" width="730" align="left">
         <div class="row">
             <div class="col-md-4 font-weight-bold">
                 <i class="fas fa-angle-right text-danger"></i>
@@ -91,11 +91,11 @@
                 <i class="fas fa-angle-right text-danger"></i> Dormitorios: 2
             </div>
         </div>
-        <hr>
+        <hr size="5" width="730" align="left">
     </section><!-- Características -->
     <section class="container pt-5 text-muted">
         <p class="text-uppercase font-weight-bold">Superficies</p>
-        <hr>
+        <hr size="5" width="730" align="left">
         <div class="row">
             <div class="col-md-4 font-weight-bold">
                 <i class="fas fa-angle-right text-danger"></i>
@@ -110,7 +110,7 @@
     </section><!-- Superficies-->
     <section class="container pt-5 text-muted font-weight-bold">
         <p class="text-uppercase">Descripción</p>
-        <hr>
+        <hr size="5" width="730" align="left">
         <div class="row">
             <div class="col-md-8 text-justify">
                 <p>Terminaciones: Aberturas de aluminio y DVH. Puertas de seguridad en ingreso. Puerta interiores de madera en PVC. Paredes y cielorraso de yeso. Pisos y revestimientos de pocelanato. Alacenas y bajomesadas de diseño con zócalos de aluminio. Mesadas de mármol. Conexiones para estufa en living y dormitorios. Preinstalación para aire acondicionado. Calefón o termotanque. Griferías de primera línea. Inodoro, bidet y bañera de primera línea y vanitory completo. Placares con interior terminado. Vaccaro, Cristian Nahuel CI Mat: 1863</p>
@@ -119,7 +119,7 @@
     </section><!-- Descripción -->
     <section class="container pt-5 text-muted">
         <p class="text-uppercase font-weight-bold">Superficies</p>
-        <hr>
+        <hr size="5" width="730" align="left">
         <div class="row">
             <div class="col-md-3 font-weight-bold">
                 <i class="fas fa-angle-right text-danger"></i>
@@ -143,7 +143,7 @@
     </section><!-- Servicios-->
     <section class="container pt-5 text-muted">
         <p class="text-uppercase font-weight-bold">Adicionales</p>
-        <hr>
+        <hr size="5" width="730" align="left">
         <div class="row">
             <div class="col-md-3 font-weight-bold">
                 <i class="fas fa-angle-right text-danger"></i>
@@ -167,7 +167,7 @@
                 <i class="fas fa-angle-right text-danger"></i>
                 <p class="d-inline"> Balcón</p><br>
                 <i class="fas fa-angle-right text-danger"></i>
-                <p class="d-inline mb-5"> Preinstalacion de A/A</p>
+                <p class="d-inline mb-5"> Preinstalacion de <br>A/A</p>
             </div>
         </div>
         <button type="button" class="btn-flat btn-danger btn-block mt-5 p-2 text-uppercase font-weight-bold"><a href="busqueda.php" class="text-decoration-none text-light">Ver más propiedades de este emprendimiento</a></button>
@@ -177,24 +177,24 @@
         <hr>
         <div class="row">
             <div class="col-md-8">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.6611875351678!2d-60.67150358525451!3d-32.93354877855444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab54639738f3%3A0x752c0d801130f25d!2sSalta%203503%2C%20S2002JLD%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1605801566919!5m2!1ses-419!2sar" width="1100" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.6611875351678!2d-60.67150358525451!3d-32.93354877855444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab54639738f3%3A0x752c0d801130f25d!2sSalta%203503%2C%20S2002JLD%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1605801566919!5m2!1ses-419!2sar" width="1100" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
     </section><!-- Ubicación -->
-    <section class="container" id="contacto">
+    <section class="container">
         <hr>
-        <h2 class="text-uppercase text-center tit my-5">Contacto</h3>
+        <p class="text-uppercase font-weight-bold my-2 pt-5 pb-3 text-center" style="font-size: 1.8em; color: #D21226;">Contacto</p>
             <div class="row mx-3">
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <form action="" class="contact">
-                        <input type="text" name="nombre" id="" placeholder="NOMBRE Y APELLIDO" class="form-control mb-2">
-                        <input type="text" name="email" id="" placeholder="E-MAIL" class="form-control mb-2">
-                        <input type="text" name="telefono" id="" placeholder="TELÉFONO" class="form-control mb-2">
+                        <input type="text" name="nombre" placeholder="NOMBRE Y APELLIDO" class="form-control mb-2">
+                        <input type="text" name="email" placeholder="E-MAIL" class="form-control mb-2">
+                        <input type="text" name="telefono" placeholder="TELÉFONO" class="form-control mb-2">
                     </form>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <div class="form-group">
-                        <textarea class="form-control rounded-0" id="" rows="5" placeholder="DEJANOS TU MENSAJE" required></textarea>
+                        <textarea class="form-control rounded-0" rows="5" placeholder="DEJANOS TU MENSAJE"></textarea>
                     </div>
                     <input type="submit" value="ENVIAR" class="float-right btn-danger enviar">
                 </div>
